@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+    
+}
+.navitem{
+    font-size:16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      height:40px;
+      width:200px;
+      padding-top:5px;
+      padding-bottom:5px;
+}
+#navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    height:50px;
+    background-color:cyan;
+}
+@media only screen and (min-width:0px) and (max-width:390px) 
+{
+
+  #navbar{
+     width:390px;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-evenly;
+     height:30px;
+  } 
+  #item5{
+     width:110px;
+  }
+
+
+  .navitem{
+      font-size:8px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      height:20px;
+      width:60px;
+      padding-top:3px;
+      padding-bottom:3px;
+  }
+  .introsec1{
+      display:flex;
+      justify-content:center;
+      height:95px;
+      border:1px solid cyan ;
+      border-radius:1px;
+      margin:8px;
+      padding:8px;
+  }
+  #profileimg{
+      height:50px;width:50px;
+      border:1px solid cyan;
+      border-radius:50%;
+      background-position-y: -100px;
+      background-position-x: 1px;
+  }
+}
+
+
+.introsec1
+{
+    display:flex;
+    justify-content:center;
+    height:400px;
+    border:2px solid cyan ;
+    border-radius:2px;
+    margin:20px;
+    padding:20px;
+}
+#profileimg{
+    height:200px;width:200px;
+    border:2px solid cyan;
+    border-radius:50%;
+    background-image: url(pf.jpg);
+    background-size: cover;
+    background-position-y: -100px;
+    background-position-x: 1px;
+}
