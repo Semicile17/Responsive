@@ -20,7 +20,7 @@
     height:50px;
     background-color:cyan;
 }
-@media only screen and (min-width:0px) and (max-width:392px) 
+@media only screen and (min-width:0px) and (max-width:385px) 
 {
 
   #navbar{ width:385px; display:flex;flex-direction:row;justify-content:space-evenly;align-items:center;height:40px;}
