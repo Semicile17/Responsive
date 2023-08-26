@@ -25,10 +25,10 @@ body{
     height:50px;
     background-color:cyan;
 }
-@media only screen and (min-width:0px) and (max-width:360px) 
+@media only screen and (min-width:0px) and (max-width:350px) 
 {
 
-  #navbar{ width:360px; display:flex;flex-direction:row;justify-content:space-evenly;align-items:center;height:40px;}
+  #navbar{ width:350px; display:flex;flex-direction:row;justify-content:space-evenly;align-items:center;height:40px;}
   #item5{ width:110px;}
   .navitem{ font-size:8px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; display:flex;align-items:center;justify-content:center;height:20px;width:60px; padding-top:3px;padding-bottom:3px;}
   #introsec1{
